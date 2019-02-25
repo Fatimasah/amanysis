@@ -958,7 +958,11 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   position: fixed;
   z-index: 1000000;
 }
-
+@media(max-width: 767px) {
+  #scrollUp {
+      right: -20px;
+  }
+}
 #scrollUp::before {
   position: absolute;
   width: 30%;
