@@ -150,7 +150,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 
 .about-slider .navbar .navbar-nav .nav-item .nav-link {
   color: #a7a9ac !important;
-  margin: 0 8px;
+  margin: 0 5px;
 }
 
 .about-slider .navbar .navbar-nav .nav-item .nav-link.active, .about-slider .navbar .navbar-nav .nav-item .nav-link:hover {
