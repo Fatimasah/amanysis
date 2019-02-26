@@ -52,8 +52,11 @@
 /* global style */
 html {
   scroll-behavior: smooth;
+  height: 100%; /* added */
 }
-
+body {
+    height: 100%; /* added */
+}
 * {
   color: #a7a9ac !important;
   -webkit-box-sizing: border-box;
@@ -150,7 +153,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 
 .about-slider .navbar .navbar-nav .nav-item .nav-link {
   color: #a7a9ac !important;
-  margin: 0 5px;
+  margin: 0 5px; /* edit */
 }
 
 .about-slider .navbar .navbar-nav .nav-item .nav-link.active, .about-slider .navbar .navbar-nav .nav-item .nav-link:hover {
@@ -320,6 +323,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 .our-services {
   background-color: #33FF99 !important;
   padding-bottom: 120px;
+  height: 100%; /* added */
 }
 
 .our-services .v-line {
