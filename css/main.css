@@ -412,7 +412,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 .testimonials .testi-row {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  margin-top: 80px;
+  margin-top: 0px; /* edit */
   align-items: flex-end;
 }
 
@@ -484,7 +484,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   padding-left: 70px;
   padding-right: 70px;
 }
-@media (max-width: 540px) {
+@media (max-width: 768px) { /* edit */
   .testimonials .carousel .carousel-inner .carousel-item {
     padding-left: 10px;
     padding-right: 10px;
